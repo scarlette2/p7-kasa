@@ -1,9 +1,6 @@
-// server programme qui attend requete http et y repond
-// importe fichier de l'appli et truc express
 const http = require('http');
 const app = require('./app');
 
-//renvoie un port valide sous forme de nb ou chaine
 const normalizePort = val => {
   const port = parseInt(val, 10);
 
@@ -15,9 +12,7 @@ const normalizePort = val => {
   }
   return false;
 };
-
-//recherche les différentes erreurs et les gère de manière appropriée et ensuite enregistrée dans le serveur 
-const port = normalizePort('3000');
+const port = normalizePort(process.env.PORT || '3001');
 app.set('port', port);
 
 const errorHandler = error => {
@@ -39,7 +34,7 @@ const errorHandler = error => {
       throw error;
   }
 };
-//passe l'appli au serveur
+
 const server = http.createServer(app);
 
 server.on('error', errorHandler);
@@ -49,5 +44,4 @@ server.on('listening', () => {
   console.log('Listening on ' + bind);
 });
 
-// ecoute le port
 server.listen(port);
