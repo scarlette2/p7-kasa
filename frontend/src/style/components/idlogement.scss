@@ -1,0 +1,131 @@
+.flex-img-logement {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.img-lo {
+    width: 100%;
+    height: 415px;
+    object-fit: cover;
+}
+
+.arrow-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 2;
+    position: relative;
+    top: 250px;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.slider__number{
+    display: none;
+}
+
+.flex-owner-logement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+
+.title-logement {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #FF6060;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.location-logement {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+    color: #FF6060;
+}
+
+.flex-li-logement {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.ul-tag-logement {
+    padding: 0;
+}
+
+.li-tag-logement {
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: white;
+    background-color: #FF6060;
+    text-align: center;
+    height: 25px;
+    width: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.owner-logement {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: max-content;
+    margin-top: 30px;
+}
+
+.flex-picname-logement {
+    display: flex;
+    flex-direction: row;
+}
+
+.owner-name {
+    font-size: 18px;
+    font-weight: 500;
+    height: fit-content;
+    margin-right: 10px;
+    color: #FF6060;
+    margin-top: 10px;
+}
+
+.border-img {
+    border: solid;
+}
+
+.img-logement {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+
+.flex-collpase-logement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-logement-collapse {
+    width: 45%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.ul-equipement {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.li-.equipement {
+    border: solid;
+    font-size: 18px;
+}

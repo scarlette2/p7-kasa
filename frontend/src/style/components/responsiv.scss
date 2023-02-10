@@ -1,0 +1,229 @@
+@media (max-width: 767px) {
+
+    //--------------------------------------logo
+    .image-logo {
+        margin-right: 2px;
+        height: 40px;
+        width: 35px;
+    }
+
+    #image-porte {
+        position: relative;
+        right: 15px;
+        top: -2px;
+        width: 5px;
+        height: 13px;
+    }
+
+    //-----------------------------------------navigation
+    .li {
+        font-size: 18px;
+    }
+
+    .flex-logo-navigation {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .flex-navigation{
+        font-size: 15px;
+    }
+
+    //baniere
+    .flex-banniere {
+        height: 150px;
+    }
+
+    .banniere {
+        width: 95%;
+        height: 15%;
+    }
+
+
+    .img-banniere {
+        position: absolute;
+        width: 95%;
+        height: 223px;
+        border-radius: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover;
+        display: flex;
+        align-items: center;
+        border: solid;
+        display: flex;
+    }
+
+    .h2-banniere {
+        color: #fff;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: start;
+        font-size: 24px;
+        z-index: 3;
+        width: 80%;
+        border: none;
+        top: -120px;
+    }
+
+    .line {
+        display: block;
+    }
+
+    //--------------------------------------banniere collapse
+
+    .flex-banniere-two{
+        height: 150px;
+    }
+
+    .bannier-two{
+        width: 95%;
+        height: 15%;
+    }
+
+    #img-baniere-two{
+        position: absolute;
+        border-radius: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover;
+        display: flex;
+        align-items: center;
+        display: flex;
+    }
+
+    //--------------------------------------------------------card
+    .card-background {
+        background-color: #fff;
+    }
+
+    .info-cards {
+        margin-top: 20px;
+    }
+
+    .cards-cover,
+    .flex-cards,
+    .info-cards {
+        width: 100%;
+    }
+
+    .flex-cards{
+        flex-direction: column;
+    }
+
+
+    //------------------------------------------------------collapse
+    .active .collapse-content {
+        text-align: start;
+
+    }
+
+    .collapse-icon,
+    .collapse-icon::before {
+        height: 2px;
+    }
+
+    .collapse-title {
+        height: 10px;
+        font-size: 15px;
+    }
+
+    #flex-collapse {
+        width: 100%;
+    }
+
+    //-----------------------------------------------------------error
+
+    .error-nb {
+        font-size: 150px;
+    }
+
+    .error-text {
+        font-size: 26px;
+    }
+
+    .error-list {
+        margin-top: 100px;
+    }
+
+    //------------------------------------------------------logement
+
+    .img-lo {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .arrow-container {
+        top: 150px;
+    }
+
+    .leftArrow,
+    .rightArrow {
+        width: 8%;
+        height: 10%;
+    }
+
+    .title-logement {
+        font-size: 28px;
+    }
+
+    .ul-tag-logement {
+        margin-right: 3px;
+    }
+
+    .flex-li-logement {
+        flex-wrap: wrap;
+    }
+
+    .li-tag-logement {
+        height: 30px;
+        font-size: 13px;
+    }
+
+    .li-tag-logement {
+        margin-left: 0;
+        margin-right: 0%;
+    }
+
+    .flex-owner-logement {
+        flex-direction: column;
+    }
+
+    .owner-logement {
+        flex-direction: row-reverse;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .owner-name {
+        width: 50%;
+        white-space: pre-line;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .star-logement {
+        margin: auto;
+    }
+
+    .star-size {
+        width: 15%;
+    }
+//-------------------------------------------------------------------collapse logement
+    .flex-collpase-logement {
+        flex-direction: column;
+    }
+
+    .flex-logement-collapse {
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 0px;
+        margin-top: 25px;
+    }
+
+    .active .collapse-content{
+        font-size: 15px;
+    }
+}

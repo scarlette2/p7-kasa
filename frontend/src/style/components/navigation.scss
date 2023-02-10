@@ -1,0 +1,18 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.flex-navigation {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.li-navigation:hover {
+    text-decoration: underline #FF6060;
+    ;
+}
